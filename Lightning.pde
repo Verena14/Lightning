@@ -38,6 +38,11 @@ void draw()
         line(startX1, startY2, endX1, endY2);
         line(startX2, startY1, endX2, endY1);
         line(startX2, startY2, endX2, endY2);
+        
+        line(startY1, startX1, endY1, endX1);
+        line(startY1, startX2, endY1, endX2);
+        line(startY2, startX1, endY2, endX1);
+        line(startY2, startX2, endY2, endX2);
         startX1 = endX1;
         startY1 = endY1;
         startX2 = endX2;
